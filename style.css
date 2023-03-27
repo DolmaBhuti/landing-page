@@ -150,16 +150,31 @@ a {
   background-color: #3882f6;
   border-radius: 10px;
   width: 65em;
-  height: 7em;
+  height: 9em;
   margin: auto;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  justify-content: space-around;
 }
 .call-item1 {
+  margin-top: 0;
+  width: 27em;
+  margin-bottom: 3em;
+}
+.action-text {
   font-weight: bold;
+  font-size: 24px;
+  width: 10.5em;
+  margin: 0;
+}
+.action-subtext {
+  width: 27em;
+  margin: 0;
+  font-size: 18px;
 }
 .call-item2 {
-  border: white 2px;
+  border: #f9faf8 2px;
+  margin-bottom: 3.5em;
 }
 
 .call-item2 > button {
@@ -168,8 +183,8 @@ a {
   border: #f9faf8 2px solid;
   font-size: 18px;
   font-weight: bold;
-  width: 120px;
-  height: 30px;
+  width: 7.5em;
+  height: 2em;
   border-radius: 5px;
 }
 footer {
